@@ -12,5 +12,10 @@ title:  "1주차 python 기초 1"
 4. 함수(Function)가 무엇인지 알고, 함수가 사용된 소스코드를 이해할 수 있따. 간단한 함수를 작성할 수 있다.
 
 1 print("Hello, Python World!!")
+  
+  Hello, Python World!!
 
 2 print("파이썬 기초")
+
+  파이썬 기초
+
