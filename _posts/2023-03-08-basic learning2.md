@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "1주차 python 기초 2 "
 ---
 
 # Welcome
