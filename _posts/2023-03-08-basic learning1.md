@@ -5,17 +5,78 @@ title:  "1주차 python 기초 1"
 
 #  01. Python Basic 01
 
-실습 목표
+# 실습 목표
 1. 데이터 타입을 알고 있다. - 숫자,문자,boolean
 2. 제어문을 사용할 수 있고, 제어문이 사용된 소스코드를 이해할 수 있다.
 3. 리스트(List)를 이해하고, 리스트가 사용된 소스코드를 이해할 수 있다. 리스트를 사용할 수 있다.
 4. 함수(Function)가 무엇인지 알고, 함수가 사용된 소스코드를 이해할 수 있따. 간단한 함수를 작성할 수 있다.
 
-1 print("Hello, Python World!!")
+ print("Hello, Python World!!")
   
   Hello, Python World!!
 
-2 print("파이썬 기초")
+ print("파이썬 기초")
 
   파이썬 기초
+
+
+a = 3
+print(a) #a 를 출력한다
+type(a) #a의 Type을 출력한다.
+
+3
+int
+
+a = 'ab'
+print(a)
+type(a)
+
+ab
+str
+
+# 변수 할당
+
+midterm = 65
+final = 90
+quiz = 99
+
+print(quiz)
+
+results = midterm*0.4 + final*0.4 + quiz*0.2
+print(results)
+
+99
+81.8
+
+# 다중 할당
+midterm, final, quiz = 65, 90, 99
+results = midterm*0.4 + final*0.4 + quiz*0.2
+print(results)
+
+81.8
+
+## 3. Type & Operator - Number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
