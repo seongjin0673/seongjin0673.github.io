@@ -50,6 +50,7 @@ print(results)
 
 # 다중 할당
 midterm, final, quiz = 65, 90, 99
+
 results = midterm*0.4 + final*0.4 + quiz*0.2
 print(results)
 
