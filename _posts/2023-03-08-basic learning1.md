@@ -273,12 +273,44 @@ a='this is sentence'
 result =a[5:7] # 5번째부터 7번째까지 result로 지정
 print(result) # 지정한 result값을 출력
 
+# 내장함수
+
+print(round(10.4607)) # 
+print(round(10.5129)) # 반올림
+print(round(10.5129, 2)) # 소수 둘째자리까지
+print(round(10.5029, 3)) # 소수 셋째자리까지
+
+10
+11
+10.51
+10.503
+
+# 함수생성
+ 
+def abc(x): # def 를 사용하여 함수를 생성합니다.
+   #pass 
+    return x % 3  #x를 3으로 나눈 후의 나머지 값이 리턴된다.
+
+print(abc(10))
+print(abc(90))
+
+1 # 10 을 3으로 나눈 후 나머지 값인 1을 출력
+0 # 90 을 3으로 나눈 후에는 나머지 값이 없으므로 0 을 출력
 
 
-
-
-
-
+def sign(x):
+    if x > 0: # 만일 x가 0보다 크다면 
+        return 'positive' #positive를 출력
+    elif x < 0: #반대로 , x가 0보다 작다면
+        return 'negative' #negative를 출력
+    else: # 둘다 아니라면
+        return 'zero' #zero를 출력
+for x in [-1, 0, 1]: #x에 [-1,0,1] 의 리스트를 할당
+    print(sign(x)) # 리스트 x를 출력
+    
+negative
+zero
+positive
 
 
 
