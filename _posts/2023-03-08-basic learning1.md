@@ -56,22 +56,73 @@ print(results)
 
 81.8
 
-## 3. Type & Operator - Number
+# 3. Type & Operator - Number
+- number: int, float
+- 산술 연산자
+
+# 학점 규칙: 중간고사 40%, 기말고사 40%, 퀴즈 20%
+print(type(midterm))
+print(results)
+print(type(results))
+
+<class 'int'> #midterm의 class 출력
+81.8  #이전에 할당한 results 출력
+<class 'float'> #자동으로 float로 지정
 
 
+# float
+a = 10/3
+print(a)
+print(type(a))
+
+3.3333333333333335 # 10/3 계산을 한 a를 출력
+<class 'float'> # a의 calss 출력
+
+# complex (제곱 후에 -1이 되는 수를 j라고 한다)
+comp_01 = complex(3,5) 
+comp_02 = 3 + 5j
+print(comp_01)
+print(comp_02)
+print(type(comp_01))
+print(type(comp_02))
+
+(3+5j) #
+(3+5j)
+<class 'complex'>
+<class 'complex'>
+
+# 수리 연산자
++, -, *, /
+%
+**
+//
++=, -=, *=, /=
+
+10/7 #나머지값을 출력한다.
+
+값 : 1.4285714285714286
+
+10//7 # 몫의 값을 출력한다.
+
+값 : 1 
+
+print(1,2,3)
+
+값 : 1 2 3
+
+print('1\t2\t3') #출력할 값들의 중간에 탭이 들어가서 띄어쓰기 된다.
+
+값 : 1	    2   	3
+
+print(1,2,3,sep='\t') ( sep를 사용해서 아래로 출력되도록 설정)
+
+값 : 1
+     2
+     3
 
 
-
-
-
-
-
-
-
-
-
-
-
+print(3,end='\t*\t\n') # 3이 끝날때는  탭과 *을 출력
+print(5,end='*') #5가 끝날때는 *이 출력
 
 
 
