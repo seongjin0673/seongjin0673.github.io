@@ -329,6 +329,27 @@ zero
 positive
 
 
+# numpy에 대해서
+from numpy import * 
+B = array([[1, 2, 2], [2, 3, 4], [45, 6, 3]])
+type(B)
+print(B+B) # numpy 를 사용하여 b+b (3x3)행렬의 덧셈을 하였다
+
+[[ 2  4  4]
+ [ 4  6  8]
+ [90 12  6]]
+
+-----------
+
+from numpy import * #*이란  numpy의 모든것을 사용하겠다 라는 것입니다.
+a = array([['Mon',18,20,22,17],['Tue',11,18,21,18],
+		   ['Wed',15,21,20,19],['Thu',11,20,22,21],
+		   ['Fri',18,17,23,22],['Sat',12,22,20,18],
+		   ['Sun',13,15,19,16]])
+print(a) 
+print(type(a)) 
+m = reshape(a,(5,7)) # 행렬의 형태를 5x7로 변경한다
+print(m) # 변경된 형태로 출력한다
 
 
 
